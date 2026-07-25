@@ -12,7 +12,6 @@
 </p>
 
 <br>
-
 ## Design for noticing, not for answers
 
 A street never tells you where to walk. It widens a sightline, drops a threshold, puts a bench where you'd hesitate — and leaves the decision to you. Five years of planning taught me that the strongest intervention is the one that changes what you *notice*.
