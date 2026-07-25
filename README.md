@@ -70,7 +70,7 @@ flowchart TB
 
 ## Bench
 
-| | |
+|Field|Tools|
 |:--|:--|
 | **Design** | Figma · Rhino · Fusion 360 · Illustrator · AutoCAD · Adobe Creative Suite |
 | **Frontend** | TypeScript · Next.js · React · Tailwind · MDX |
