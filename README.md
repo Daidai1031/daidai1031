@@ -19,38 +19,22 @@ So that's what I build, in silicon now instead of concrete. Every project below 
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'lineColor':'#71717A','primaryColor':'#27272A','primaryTextColor':'#E4E4E7','primaryBorderColor':'#3F3F46'}}}%%
-flowchart LR
+flowchart TB
     T{{"surface it · frame it · hand the judgment back"}}:::thesis
+    T --> DEV["PHYSICAL COMPUTING<br/>6 projects"]:::devCat
+    T --> AIS["AI + AGENTS<br/>4 projects"]:::aiCat
+    T --> WEB["FULL-STACK PRODUCTS<br/>3 projects"]:::webCat
 
-    T --> DEV["PHYSICAL<br/>COMPUTING"]:::cat
-    T --> AIS["AI +<br/>AGENTS"]:::cat
-    T --> WEB["FULL-STACK<br/>PRODUCTS"]:::cat
-
-    DEV --> d1["Subway Telltale"]:::n
-    DEV --> d2["PROMPT!"]:::n
-    DEV --> d3["GeoMelody"]:::n
-    DEV --> d4["Sprout"]:::n
-    DEV --> d5["ER-Companion"]:::n
-    DEV --> d6["Cat Companion"]:::n
-
-    AIS --> a1["SocratiDesk"]:::n
-    AIS --> a2["TeaGuard"]:::n
-    AIS --> a3["Socratic Agent"]:::n
-    AIS --> a4["FitFindr"]:::n
-
-    WEB --> w1["Into Place"]:::n
-    WEB --> w2["ai-wardrobe"]:::n
-    WEB --> w3["portfolio-next"]:::n
-
-    classDef thesis fill:#312E81,stroke:#6366F1,color:#EEF2FF
-    classDef cat fill:#18181B,stroke:#52525B,color:#FAFAFA
-    classDef n fill:#27272A,stroke:#3F3F46,color:#D4D4D8
+    classDef thesis fill:#18181B,stroke:#A1A1AA,color:#FAFAFA
+    classDef devCat fill:#78350F,stroke:#F59E0B,color:#FEF3C7
+    classDef aiCat fill:#3730A3,stroke:#818CF8,color:#E0E7FF
+    classDef webCat fill:#065F46,stroke:#34D399,color:#D1FAE5
 ```
 
-<sub>Three tracks, thirteen projects — open one.</sub>
-
 <details>
-<summary><b>◾ Physical Computing & Devices</b> &nbsp;<sub>6 projects · ESP32 · CircuitPython · Jetson · sensors · 3D printing</sub></summary>
+<summary><b>🟠 Physical Computing & Devices</b> — 6 projects</summary>
+
+<sub>ESP32 · CircuitPython · Jetson · sensors · 3D printing</sub>
 
 - **[Portable Subway Telltale](https://github.com/Daidai1031/Portable-Subway-Telltale)** — Keychain ambient display for Roosevelt Island. One glance tells you whether to run.
 - **[PROMPT!](https://github.com/Daidai1031/PROMPT-)** — AI literacy card game for kids 10+. They say what they notice out loud; a coach replies. Fully offline on a Jetson, so no child's voice leaves the table.
@@ -62,7 +46,9 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>◾ AI & Agent Systems</b> &nbsp;<sub>4 projects · RAG · ReAct agents · on-device inference · multi-signal classification</sub></summary>
+<summary><b>🔵 AI & Agent Systems</b> — 4 projects</summary>
+
+<sub>RAG · ReAct agents · on-device inference · multi-signal classification</sub>
 
 - **[SocratiDesk](https://github.com/Daidai1031/SocratiDesk)** — Voice-first study companion that asks instead of answers. No tabs, no copy-paste, just thinking aloud.
 - **[TeaGuard Trust API](https://github.com/Daidai1031/teaguard-trust-api)** — Screens anonymous reviews for privacy and defamation risk. Refuses to rule on truth; flags what needs a human.
@@ -72,7 +58,9 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>◾ Full-Stack Products</b> &nbsp;<sub>3 projects · Next.js · Supabase · fal.ai · Flask</sub></summary>
+<summary><b>🟢 Full-Stack Products</b> — 3 projects</summary>
+
+<sub>Next.js · Supabase · fal.ai · Flask</sub>
 
 - **[Into Place](https://github.com/Daidai1031/into-place)** — Drop a pin and a place's real archive becomes a short film you direct. Sourced material keeps its era and license; every generated frame stays labeled as generated.
 - **[ai-wardrobe](https://github.com/Daidai1031/ai-wardrobe)** — Shoot your closet once, then let it dress you for the weather.
