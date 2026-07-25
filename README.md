@@ -11,16 +11,16 @@
   <a href="mailto:dd699@cornell.edu"><img src="https://img.shields.io/badge/Email-18181B?style=flat-square&logo=maildotru&logoColor=E4E4E7"></a>
 </p>
 
-## Design for noticing, not for answers
+## Sense, then nudge. Never discipline.
 
-A street never tells you where to walk. It widens a sightline, drops a threshold, puts a bench where you'd hesitate — and leaves the decision to you. Five years of planning taught me that the strongest intervention is the one that changes what you *notice*.
+Many corner park has a KEEP OFF THE GRASS sign, and a dirt line worn straight across the lawn behind it. The sign says what people should do; the dirt says what they were already doing. Five years of planning taught me which one to trust — you read how people actually move, then pave it.
 
-So that's what I build, in silicon now instead of concrete. Every project below surfaces something that was already there but unattended, frames it so a person can act in one glance, and then gets out of the way. None of them hand down a verdict.
+I build products the same way. Each project below reads something already in motion — a heart rate, a slouch, a platform, a place's archive — and offers something back at the edge of attention. None of them run a compliance loop. Nothing here is trying to correct you.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'lineColor':'#71717A','primaryColor':'#27272A','primaryTextColor':'#E4E4E7','primaryBorderColor':'#3F3F46'}}}%%
 flowchart TB
-    T{{"surface it · frame it · hand the judgment back"}}:::thesis
+    T{{"sense it · nudge it · never discipline it"}}:::thesis
     T --> DEV["PHYSICAL COMPUTING<br/>6 projects"]:::devCat
     T --> AIS["AI + AGENTS<br/>4 projects"]:::aiCat
     T --> WEB["FULL-STACK PRODUCTS<br/>3 projects"]:::webCat
@@ -39,7 +39,7 @@ flowchart TB
 - **[Portable Subway Telltale](https://github.com/Daidai1031/Portable-Subway-Telltale)** — Keychain ambient display for Roosevelt Island. One glance tells you whether to run.
 - **[PROMPT!](https://github.com/Daidai1031/PROMPT-)** — AI literacy card game for kids 10+. They say what they notice out loud; a coach replies. Fully offline on a Jetson, so no child's voice leaves the table.
 - **[GeoMelody](https://github.com/Daidai1031/portfolio-next/tree/main/app/projects/geomelody)** — A wearable reads heart rate, ambient noise and motion, then surfaces five tracks from music you already love that fit where you are. The first version asked how you felt — but if you stop to answer, you've already left the moment.
-- **[Sprout](https://github.com/Daidai1031/Sprout)** — Chest-clip wearable that turns posture into physics-driven bubbles. Visualizes, never nags.
+- **[Sprout](https://github.com/Daidai1031/Sprout)** — Chest-clip wearable that turns posture into physics-driven bubbles. It shows you the slouch instead of buzzing at you to sit up.
 - **[ER-Companion](https://github.com/Daidai1031/ER-Companion)** — Low-cost wristband that catches falls and seizures for ER patients who can't speak for themselves.
 - **[Cat Companion](https://github.com/Daidai1031/ubicomp-cat-companion)** — A 3D-printed cat you level up by keeping your own daily quests.
 
@@ -70,12 +70,21 @@ flowchart TB
 
 ## Bench
 
-|Field|Tools|
-|:--|:--|
-| **Design** | Figma · Rhino · Fusion 360 · Illustrator · AutoCAD · Adobe Creative Suite |
-| **Frontend** | TypeScript · Next.js · React · Tailwind · MDX |
-| **Backend** | Python · Flask · FastAPI · SQL · SQLAlchemy · Supabase |
-| **AI** | LLM orchestration · RAG · ReAct agents · Whisper · Kokoro TTS · Tesseract OCR · Claude · Gemini · Llama · fal.ai |
-| **Hardware** | ESP32-S2/S3 · Raspberry Pi · Jetson AGX Thor · Arduino · CircuitPython · IMU |
-| **Fabrication** | Laser cutting · 3D printing · Parametric modeling |
-| **Ops** | Git · Linux / Bash · Vercel |
+<p>
+
+<img src="https://img.shields.io/badge/AI%20MODELS-3730A3?style=flat-square&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Claude-18181B?style=flat-square&logo=claude&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Gemini-18181B?style=flat-square&logo=googlegemini&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Llama-18181B?style=flat-square&logo=meta&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Whisper-18181B?style=flat-square"> <img src="https://img.shields.io/badge/Kokoro%20TTS-18181B?style=flat-square"> <img src="https://img.shields.io/badge/Tesseract%20OCR-18181B?style=flat-square"> <img src="https://img.shields.io/badge/fal.ai-18181B?style=flat-square">
+<br>
+<img src="https://img.shields.io/badge/AI%20PATTERNS-3730A3?style=flat-square&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/LLM%20Orchestration-18181B?style=flat-square"> <img src="https://img.shields.io/badge/RAG-18181B?style=flat-square"> <img src="https://img.shields.io/badge/ReAct%20Agents-18181B?style=flat-square"> <img src="https://img.shields.io/badge/On--device%20Inference-18181B?style=flat-square">
+<br>
+<img src="https://img.shields.io/badge/HARDWARE-78350F?style=flat-square&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/ESP32-18181B?style=flat-square&logo=espressif&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Raspberry%20Pi-18181B?style=flat-square&logo=raspberrypi&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Jetson-18181B?style=flat-square&logo=nvidia&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Arduino-18181B?style=flat-square&logo=arduino&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/CircuitPython-18181B?style=flat-square"> <img src="https://img.shields.io/badge/IMU%20%2F%20Biosensors-18181B?style=flat-square">
+<br>
+<img src="https://img.shields.io/badge/FABRICATION-78350F?style=flat-square&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Bambu%20Studio-18181B?style=flat-square&logo=bambulab&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Laser%20Cutting-18181B?style=flat-square"> <img src="https://img.shields.io/badge/3D%20Printing-18181B?style=flat-square"> <img src="https://img.shields.io/badge/Parametric%20Modeling-18181B?style=flat-square">
+<br>
+<img src="https://img.shields.io/badge/FRONTEND-065F46?style=flat-square&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/TypeScript-18181B?style=flat-square&logo=typescript&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Next.js-18181B?style=flat-square&logo=nextdotjs&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/React-18181B?style=flat-square&logo=react&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Tailwind-18181B?style=flat-square&logo=tailwindcss&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/MDX-18181B?style=flat-square&logo=mdx&logoColor=E4E4E7">
+<br>
+<img src="https://img.shields.io/badge/BACKEND-065F46?style=flat-square&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Python-18181B?style=flat-square&logo=python&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Flask-18181B?style=flat-square&logo=flask&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/FastAPI-18181B?style=flat-square&logo=fastapi&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/PostgreSQL-18181B?style=flat-square&logo=postgresql&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/SQLAlchemy-18181B?style=flat-square&logo=sqlalchemy&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Supabase-18181B?style=flat-square&logo=supabase&logoColor=E4E4E7">
+<br>
+<img src="https://img.shields.io/badge/DESIGN-3F3F46?style=flat-square&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Figma-18181B?style=flat-square&logo=figma&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Rhino-18181B?style=flat-square&logo=rhinoceros&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Fusion%20360-18181B?style=flat-square&logo=autodesk&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/AutoCAD-18181B?style=flat-square&logo=autocad&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Illustrator-18181B?style=flat-square"> <img src="https://img.shields.io/badge/Adobe%20CC-18181B?style=flat-square">
+<br>
+<img src="https://img.shields.io/badge/OPS-27272A?style=flat-square&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Git-18181B?style=flat-square&logo=git&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Linux-18181B?style=flat-square&logo=linux&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Bash-18181B?style=flat-square&logo=gnubash&logoColor=E4E4E7"> <img src="https://img.shields.io/badge/Vercel-18181B?style=flat-square&logo=vercel&logoColor=E4E4E7">
+</p>
