@@ -11,7 +11,7 @@
   <a href="mailto:dd699@cornell.edu"><img src="https://img.shields.io/badge/Email-18181B?style=flat-square&logo=maildotru&logoColor=E4E4E7"></a>
 </p>
 
-## Sense, then nudge. Never discipline.
+## Premise：Perception over prescription
 
 Many corner park has a KEEP OFF THE GRASS sign, and a dirt line worn straight across the lawn behind it. The sign says what people should do; the dirt says what they were already doing. Five years of planning taught me which one to trust — you read how people actually move, then pave it.
 
